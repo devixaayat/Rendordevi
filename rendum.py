@@ -256,7 +256,7 @@ def aDEVIpproval():
 	except requests.exceptions.ConnectionError:
 		exit('[+] No internet connection ..')
 
-try:,
+try:
 	prox= requests.get('https://raw.githubusercontent.com/devixayyat/Server/main/proxy.txt').text
 	open('proxy.txt','w').write(proxies)
 except Exception as e:pass
