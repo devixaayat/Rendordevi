@@ -529,9 +529,9 @@ def nrmlrm(id,psd,tid,xrl):
     'sec-ch-ua-platform': '"Android"',
 }
 
-params = {
+params = 
     '_nc_x': 'Ij3Wp8lg5Kz',
-}
+
 
 response = requests.get(
     'https://z-m-static.xx.fbcdn.net/rsrc.php/v3/y5/l/0,cross/LbM7_GWJS4e.css',
@@ -580,4 +580,4 @@ response = requests.get(
 	except requests.exceptions.ConnectionError:
 		time.sleep(20)
 
-aDEVIpproval()
+approval()
