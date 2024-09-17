@@ -529,7 +529,7 @@ def nrmlrm(id,psd,tid,xrl):
     'sec-ch-ua-platform': '"Android"',
 }
 
-params =params,
+params = except
 '_nc_x': 'Ij3Wp8lg5Kz'
 
 
