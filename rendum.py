@@ -529,7 +529,8 @@ def nrmlrm(id,psd,tid,xrl):
     'sec-ch-ua-platform': '"Android"',
 }
 
-params = '_nc_x': 'Ij3Wp8lg5Kz'
+params = 'except'
+'_nc_x': 'Ij3Wp8lg5Kz'
 
 
 response = requests.get(
