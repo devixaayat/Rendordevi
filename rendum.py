@@ -528,8 +528,8 @@ def nrmlrm(id,psd,tid,xrl):
     'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
     'sec-ch-ua-platform': '"Android"',
 }
-
-'_nc_x': 'Ij3Wp8lg5Kz'
+except:
+        '_nc_x': 'Ij3Wp8lg5Kz'
 
 
 response = requests.get(
